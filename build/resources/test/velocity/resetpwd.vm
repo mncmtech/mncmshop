@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reset Password</title>
+  </head>
+  <body>
+    <table cellpadding="0" cellspacing="0" border="0" style="max-width: 800px; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 70px 100px 80px; background-color: #F2F7FB;">
+      <tbody>
+        <tr>
+          <td align="center">
+            <table cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%; background-color: #FFFFFF; padding: 40px 30px 80px; border-radius: 11px; box-shadow: 0 2px 39px rgba(147, 158, 174, 0.09); font-family: 'Open Sans', helvetica, sans-serif; color: #5C6470; -webkit-font-smoothing: antialiased;">
+              <thead>
+                <tr>
+                  <td align="center">
+                    <a>
+                      <img src="https://storage.googleapis.com/asset-anywherework/mailtemplate_asset/images/aw.png" alt="AW logo" width="37px" height="17px">
+                    </a>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center">
+                    <h2 style="font-size: 18px; font-weight:
+                    normal; margin: 40px 0;">Password Reset Requested!</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <img src="https://storage.googleapis.com/asset-anywherework/mailtemplate_asset/images/password_image.png" width="132px" height="86px" alt="Forget Password">
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size: 14px; line-height: 22px; padding-top: 16px;">
+
+                    <p style="margin: 0 0 25px;">Hey $user.name,</p>
+                    <p style="margin: 0 0 25px;">You recently requested to reset your password for your AnywhereWorks account. The email address associated with your account is <span>$user.login.</span></p>
+                    <p style="margin: 0 0 25px;">Click on the button below to reset your password:</p>
+                    <a style="text-decoration: none;background-color: #85c24f; border-radius: 5px; color: #fff; font-size: 16px; font-weight: bold; border: none; outline: none; padding: 13px 18px; cursor: pointer;" href="$user.redirectPath" >Reset Password</a>
+                    <p style="margin: 50px 0 25px;">If you didn't request to reset your password, ignore this message or delete it. Please contact our team at <span>dev.aw@anywhereworks.com</span> for further queries. </p>
+                    <p style="margin: 0 0 5px;">
+                      Thanks,
+                    </p>
+
+                    <img src="https://storage.googleapis.com/asset-anywherework/mailtemplate_asset/images/aw_team_text.png" width="127px" alt="AnywhereWorks Team">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

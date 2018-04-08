@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Service for Fast, Reliable Shopping in City">
+    <title>MNCM Onboard | MNCM</title>
+    <link rel="stylesheet" href="/css/onboard.css?id=1">
+</head>
+<body>
+<main>
+    <article class="mncm-account-column-right">
+        <a class="mncm-brand-logo"></a>
+        <section class="mncm-account-panel mncm-login-panel" id="account-form-container" style="display:none;">
+            <div class="mncm-account-third-parties">
+                <h3>Get ready with your account</h3>
+            </div>
+            <fieldset class="mncm-account-fieldset" id="account-input-group">
+                <div class="mncm-form-group">
+                    <label>Name</label>
+                    <input type="text" class="mncm-input-default first-name-input" id="account-name" tabindex="1"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Type</label>
+                    <input type="text" class="mncm-input-default last-name-input" id="account-type" tabindex="2"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Email</label>
+                    <input type="text" class="mncm-input-default mobile-number-input" id="account-email" tabindex="3"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                <label>Phone</label>
+                <input type="text" class="mncm-input-default mobile-number-input" id="account-phone" tabindex="3"/>
+                <p class="mncm-error-txt"></p>
+                </div>
+                <p class="mncm-error-txt credentials-error" id="account-error-message"></p>
+                <button class="mncm-btn mncm-btn-secondary signup-button" id="process-account" tabindex="4">Process</button>
+            </fieldset>
+        </section>
+        <section class="mncm-account-panel mncm-login-panel" id="acc-address-form-container" style="display:none;">
+            <div class="mncm-account-third-parties">
+                <h3>Get ready with account address</h3>
+            </div>
+            <fieldset class="mncm-account-fieldset" id="acc-address-input-group">
+                <div class="mncm-form-group">
+                    <label>House No.</label>
+                    <input type="text" class="mncm-input-default first-name-input" id="acc-address-number" tabindex="1"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Street</label>
+                    <input type="text" class="mncm-input-default first-name-input" id="acc-address-street" tabindex="1"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>City</label>
+                    <input type="text" class="mncm-input-default last-name-input" id="acc-address-city" tabindex="2"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Region</label>
+                    <input type="text" class="mncm-input-default last-name-input" id="acc-address-region" tabindex="2"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Country</label>
+                    <input type="text" class="mncm-input-default mobile-number-input" id="acc-address-country" tabindex="3"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Type</label>
+                    <input type="text" class="mncm-input-default mobile-number-input" id="acc-address-type" tabindex="3"/>
+                    <div class="business-option-wrapper">
+                        <ul class="business-option">
+                            <li><span>Office</span></li>
+                            <li><span>Home</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mncm-form-group">
+                    <label>PinCode</label>
+                    <input type="text" class="mncm-input-default mobile-number-input" id="acc-address-pincode" tabindex="3"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <p class="mncm-error-txt credentials-error" id="acc-address-error-message"></p>
+                <button class="mncm-btn mncm-btn-secondary signup-button" id="process-acc-address" tabindex="4">Process</button>
+            </fieldset>
+        </section>
+        <section class="mncm-account-panel mncm-login-panel" id="profile-container" style="display:none;">
+            <div class="mncm-account-third-parties">
+                <h3>Get ready with your profile</h3>
+            </div>
+            <fieldset class="mncm-account-fieldset" id="signup-input-group">
+                <div class="mncm-form-group">
+                    <label>First Name</label>
+                    <input type="text" class="mncm-input-default first-name-input" id="user-first-name" tabindex="1"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Last Name</label>
+                    <input type="text" class="mncm-input-default last-name-input" id="user-last-name" tabindex="2"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <div class="mncm-form-group">
+                    <label>Mobile No.</label>
+                    <input type="text" class="mncm-input-default mobile-number-input" id="user-mobile-number" tabindex="3"/>
+                    <p class="mncm-error-txt"></p>
+                </div>
+                <p class="mncm-error-txt credentials-error" id="user-error-message"></p>
+                <button class="mncm-btn mncm-btn-secondary signup-button" id="create-account" tabindex="4">Create Account</button>
+            </fieldset>
+        </section>
+    </article>
+</main>
+<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/scripts/cookie.js?id=1"></script>
+<script type="text/javascript" src="/scripts/model.js?id=1"></script>
+<script type="text/javascript" src="/scripts/service.js?id=1"></script>
+<script type="text/javascript" src="/scripts/onboard.js?id=1"></script>
+<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+</body>
+</html>

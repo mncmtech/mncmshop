@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome Email</title>
+  </head>
+  <body>
+    <table cellpadding="0" cellspacing="0" border="0" style="max-width: 800px; width: 100%; margin: 0 auto; box-sizing: border-box; padding: 70px 100px 80px; background-color: #F2F7FB;">
+      <tbody>
+        <tr>
+          <td align="center">
+            <table cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%; background-color: #FFFFFF; padding: 40px 30px 80px; border-radius: 11px; box-shadow: 0 2px 39px rgba(147, 158, 174, 0.09); font-family: 'Open Sans', helvetica, sans-serif; color: #5C6470; -webkit-font-smoothing: antialiased;">
+              <thead>
+                <tr>
+                  <td align="center">
+                    <a>
+                      <img src="https://storage.googleapis.com/asset-anywherework/mailtemplate_asset/images/aw.png" alt="AW logo" width="37px" height="17px">
+                    </a>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="center">
+                    <h2 style="font-size: 18px; font-weight:
+                    normal; margin: 40px 0;">Welcome to AnywhereWorks!</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <img src="https://storage.googleapis.com/asset-anywherework/mailtemplate_asset/images/welcome_image.png" width="105px" height="70px" alt="Thanks for signing up">
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size: 14px; line-height: 22px; padding-top: 16px;">
+
+                    <p style="margin: 0 0 25px;">Hey $user.name,</p>
+                    <p style="margin: 0 0 25px;">Thank you for your interest in AnywhereWorks. We're glad to have you on board!</p>
+                    <p style="margin: 0 0 25px;">Your account details:</p>
+                    <p style="color: #7f8796; font-weight: normal; font-size: 14px;margin: 9px 0;">Domain Name: <span style="color: #5c6470; font-weight: bold;"><a href="$user.url">$user.domain</a></span></p>
+                    <p style="color: #7f8796; font-weight: normal; font-size: 14px;margin: 9px 0 50px;">Email: <span style="color: #5c6470; font-weight: bold;">$user.login</span></p>
+
+                    <p style="margin: 0 0 5px;">
+                      Thanks,
+                    </p>
+
+                    <img src="https://storage.googleapis.com/asset-anywherework/mailtemplate_asset/images/aw_team_text.png" width="127px" alt="AnywhereWorks Team">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Service for Fast, Reliable Shopping in City">
+    <title>MNCM ADMIN | MNCM</title>
+    <link rel="stylesheet" href="/css/main.css?id=2">
+    <link rel="stylesheet" href="/css/onboard.css?id=2">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+    <script type="text/javascript">
+        Cookie.erase("signup");
+    </script>
+</head>
+<body>
+<div class="aw-main-wrapper">
+    <section class="main-header-section">
+        <a class="brand" href="javascript:void(0)"></a>
+        <nav class="mncm-nav-name">
+            <img src="/images/logo/MShop.png">
+            <!--<a href="javascript:void(0)">MShop</a>-->
+        </nav>
+        <nav class="mncm-nav-profile" id="profile-view-nav">
+            <div class="user-name-wrapper">
+                <a class="mncm-user-name">Sonu</a>
+            </div>
+            <div class="mncm-profile-option mncm-arrow-top-center" id="setting-option-wrapper" style="display:none;">
+                <ul class="mncm-profile-option-list">
+                    <li>
+                        <a href="/my-account">My Account</a>
+                    </li>
+                    <li>
+                        <a href="/logout">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="main-container-section">
+        <aside>
+            <section class="main-section-nav-category" id="control-item-list">
+                <nav>
+                    <ul class="mncm-category-list">
+
+                        <li class="leftIcons active">
+                            <span class="mncm-category-name main-nav-item">Orders</span>
+                        </li>
+                        <li class="leftIcons">
+                            <span class="mncm-category-name main-nav-item">Add Products</span>
+                        </li>
+                        <li class="leftIcons">
+                            <span class="mncm-category-name main-nav-item">Inventory</span>
+                        </li>
+                        <li class="leftIcons">
+                            <span class="mncm-category-name main-nav-item">Category</span>
+                        </li>
+                        <li class="leftIcons">
+                            <span class="mncm-category-name main-nav-item">Application</span>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+        <div class="mncm-right-cont" id="mncm-right-container">
+            <article class="mncm-all-itmes" id="item-list-article">
+                <div class="itemList-wrapper">
+                    <header id="right-container-header">
+                        <h5 id="control-name-holder">Orders</h5>
+                        <button class="btn btn-primary add-new-item itemButton" id="action-btn"style="">New Item</button>
+                        <input type="text" id="contacts-filter" placeholder="Search members" class="mncm-input-search filter-search">
+                    </header>
+                    <section class="itemList-wrapper" id="inventroy-list-viewer" style="display:none;">
+                    <div class="title-bar">
+                        <span class="tle-1">Item Name</span>
+                        <span class="tle-2">Price</span>
+                        <span class="tle-3">Discount</span>
+                    </div>
+                    <div class="listView-wrapper" id="optionlist-wrapper-items">
+                        <div class="empty-item empty-item-search" id="item-search-empty-state" style="display:none">
+                            <span>No Item Found!</span>
+                        </div>
+                        <ul class="listView-panel" id="directory-people-list">
+                            <li class="user-contact">
+                                <div class="item-details ">
+                                    <figure>
+                                        <img src="/images/vegitables/cabbage.jpg">
+                                    </figure>
+                                    <span class="item-name">Cabbage</span>
+                                    <span class="item-desg">cabbage</span>
+                                </div>
+                                <div class="item-price">
+                                    <span>20 RS</span>
+                                    <span class="last-update-time"></span>
+                                </div>
+                                <div class="item-discount">
+                                    <span>3%</span>
+                                </div>
+                            </li>
+                            <li class="user-contact">
+                                <div class="item-details ">
+                                    <figure>
+                                        <img src="/images/vegitables/broccoli.jpg">
+                                    </figure>
+                                    <span class="item-name">Broccoli</span>
+                                    <span class="item-desg">broccoli</span>
+                                </div>
+                                <div class="item-price">
+                                    <span>200 RS</span>
+                                    <span class="last-update-time"></span>
+                                </div>
+                                <div class="item-discount">
+                                    <span>5%</span>
+                                </div>
+                            </li>
+                            <li class="user-contact">
+                                <div class="item-details ">
+                                    <figure>
+                                        <img src="/images/vegitables/carret.jpg">
+                                    </figure>
+                                    <span class="item-name">Carret</span>
+                                    <span class="item-desg">carret</span>
+                                </div>
+                                <div class="item-price">
+                                    <span>10 RS</span>
+                                    <span class="last-update-time"></span>
+                                </div>
+                                <div class="item-discount">
+                                    <span>4%</span>
+                                </div>
+                            </li>
+                            <li class="user-contact">
+                                <div class="item-details ">
+                                    <figure>
+                                        <img src="/images/vegitables/celery.jpg">
+                                    </figure>
+                                    <span class="item-name">Celery</span>
+                                    <span class="item-desg">celery</span>
+                                </div>
+                                <div class="item-price">
+                                    <span>50 RS</span>
+                                    <span class="last-update-time"></span>
+                                </div>
+                                <div class="item-discount">
+                                    <span>6%</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    </section>
+                    <section class="itemList-wrapper" id="application-list-viewer" style="display:none;">
+                        <div class="title-bar">
+                            <span class="tle-1">Application</span>
+                            <span class="tle-2">BrandId</span>
+                        </div>
+                        <div class="listView-wrapper" id="optionlist-wrapper-apps">
+                            <div class="empty-item empty-item-search" id="apps-search-empty-state" style="display:none">
+                                <span>No App Found!</span>
+                            </div>
+                            <ul class="listView-panel" id="apps-list">
+
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="mncm-account-panel mncm-login-panel mncm-form-view" id="application-form-container" style="display:none;">
+                        <div class="mncm-account-third-parties">
+                            <h3>Create Application</h3>
+                        </div>
+                        <fieldset class="mncm-account-fieldset" id="application-input-group">
+                            <div class="mncm-form-group">
+                                <figure>
+                                    <div><h6 id="change-app-photo">Change</h6></div>
+                                    <input type="file" class="mncm-input-default app-photo-input" id="app-photo-input" tabindex="1" accept="image/*" style="display:none"/>
+                                    <img src="/images/logo/MShop.png" id="application-logo">
+                                </figure>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Name</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="app-name-input" tabindex="2"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <p class="mncm-error-txt credentials-error" id="app-error-message"></p>
+                            <button class="mncm-btn mncm-btn-secondary signup-button" id="process-application" tabindex="3">Create</button>
+                        </fieldset>
+                    </section>
+                    <section class="mncm-account-panel mncm-login-panel mncm-form-view" id="category-form-container" style="display:none;">
+                        <div class="mncm-account-third-parties">
+                            <h3>Create Category</h3>
+                        </div>
+                        <fieldset class="mncm-account-fieldset" id="categrory-input-group">
+                            <div class="mncm-form-group">
+                                <figure>
+                                    <div><h6 id="change-category-photo">Change</h6></div>
+                                    <input type="file" class="mncm-input-default app-photo-input" id="category-photo-input" tabindex="1" accept="image/*" style="display:none"/>
+                                    <img src="/images/logo/MShop.png" id="category-logo">
+                                </figure>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Name</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="category-name-input" tabindex="2"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Type</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="category-type-input" tabindex="3"/>
+                                <div class="dropdown-option-wrapper">
+                                    <ul class="dropdown-option">
+                                        <li><span>MAIN</span></li>
+                                        <li><span>SUB</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="mncm-error-txt credentials-error" id="category-error-message"></p>
+                            <button class="mncm-btn mncm-btn-secondary signup-button" id="process-category" tabindex="4">Create</button>
+                        </fieldset>
+                    </section>
+                    <section class="mncm-account-panel mncm-login-panel mncm-form-view" id="product-form-container" style="display:none;">
+                        <div class="mncm-account-third-parties">
+                            <h3>Create Products</h3>
+                        </div>
+                        <fieldset class="mncm-account-fieldset" id="product-input-group">
+                            <div class="mncm-form-group">
+                                <figure>
+                                    <div><h6 id="change-product-photo">Change</h6></div>
+                                    <input type="file" class="mncm-input-default app-photo-input" id="product-photo-input" tabindex="1" style="display:none"/>
+                                    <img src="/images/logo/MShop.png" id="product-logo">
+                                </figure>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Name</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="product-name-input" tabindex="2"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Brand Name</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="product-brand-input" tabindex="3"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Price</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="product-price-input" tabindex="4"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Warrenty</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="product-warrenty-input" tabindex="5"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <div class="mncm-form-group">
+                                <label>Description</label>
+                                <input type="text" class="mncm-input-default app-name-input" id="product-description-input" tabindex="6"/>
+                                <p class="mncm-error-txt"></p>
+                            </div>
+                            <p class="mncm-error-txt credentials-error" id="product-error-message"></p>
+                            <button class="mncm-btn mncm-btn-secondary signup-button" id="process-product" tabindex="7">Create</button>
+                        </fieldset>
+                    </section>
+                </div>
+            </article>
+        </div>
+    </section>
+</div>
+<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/scripts/service.js?id=1"></script>
+<script type="text/javascript" src="/scripts/model.js?id=1"></script>
+<script type="text/javascript" src="/scripts/business.js?id=1"></script>
+<script type="text/javascript" src="/scripts/header.js?id=1"></script>
+<script type="text/javascript" src="/scripts/constants.js?id=1"></script>
+<script type="text/javascript" src="/scripts/HtmlTemplate.js?id=1"></script>
+<script type="text/javascript" src="/scripts/templates.js?id=1"></script>
+</body>
+</html>
